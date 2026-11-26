@@ -1,0 +1,5 @@
+seasonality,total_records,actual_demand,average_forecast_error,wape_percentage
+Summer,18305,2479015,5.07,6.16
+Spring,18317,2487940,5.029999999999999,6.12
+Winter,18285,2501951,5.1,6.05
+Autumn,18193,2506676,5.05,6.01

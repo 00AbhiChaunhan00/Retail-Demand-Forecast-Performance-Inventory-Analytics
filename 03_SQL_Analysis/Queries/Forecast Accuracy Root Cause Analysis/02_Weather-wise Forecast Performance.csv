@@ -1,0 +1,5 @@
+weather_condition,total_records,actual_demand,average_forecast_error,wape_percentage
+Rainy,18278,2470455,5.08,6.14
+Snowy,18272,2483376,5.07,6.14
+Cloudy,18260,2497207,5.029999999999999,6.04
+Sunny,18290,2524544,5.07,6.029999999999999
