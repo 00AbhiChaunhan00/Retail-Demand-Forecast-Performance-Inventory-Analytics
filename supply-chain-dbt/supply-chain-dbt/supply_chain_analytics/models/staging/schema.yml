@@ -1,0 +1,58 @@
+
+version: 2
+
+models:
+  - name: stg_supply_chain
+    description: "Cleaned and standardized supply chain dataset."
+
+    columns:
+      - name: date
+        description: "Date of the supply chain record."
+        tests:
+          - not_null
+
+      - name: store_id
+        description: "Store identifier."
+        tests:
+          - not_null
+
+      - name: product_id
+        description: "Product identifier."
+        tests:
+          - not_null
+
+      - name: category
+        description: "Product category."
+
+      - name: region
+        description: "Store region."
+
+      - name: inventory_level
+        description: "Available inventory."
+
+      - name: units_sold
+        description: "Number of units sold."
+
+      - name: units_ordered
+        description: "Number of units ordered."
+
+      - name: demand_forecast
+        description: "Forecasted demand."
+
+      - name: price
+        description: "Product selling price."
+
+      - name: discount
+        description: "Discount applied."
+
+      - name: weather_condition
+        description: "Weather condition."
+
+      - name: holiday_promotion
+        description: "Holiday promotion indicator."
+
+      - name: competitor_pricing
+        description: "Competitor pricing."
+
+      - name: seasonality
+        description: "Seasonal classification."

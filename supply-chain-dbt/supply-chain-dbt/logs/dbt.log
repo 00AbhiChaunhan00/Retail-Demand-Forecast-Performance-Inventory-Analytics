@@ -1,0 +1,156 @@
+[0m16:25:15.822284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C33DC6FE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C342BDCF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C340A0C2C0>]}
+
+
+============================== 16:25:15.832336 | dfd27c59-1309-477a-800b-e1ca759a87ce ==============================
+[0m16:25:15.832336 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m16:25:15.835336 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Abhishek\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt init supply_chain_analytics', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m16:25:15.836329 [debug] [MainThread]: Tracking: tracking
+[0m16:25:15.930456 [debug] [MainThread]: Starter project path: C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:25:16.008770 [info ] [MainThread]: Setting up your profile.
+[0m16:26:14.309018 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m16:26:14.385597 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m16:26:14.392599 [info ] [MainThread]: python version: 3.12.10
+[0m16:26:14.394595 [info ] [MainThread]: python path: C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\.venv\Scripts\python.exe
+[0m16:26:14.401600 [info ] [MainThread]: os info: Windows-11-10.0.26300-SP0
+[0m16:26:15.731998 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:26:15.733999 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:26:16.425451 [info ] [MainThread]: Using profiles dir at C:\Users\Abhishek\.dbt
+[0m16:26:16.426431 [info ] [MainThread]: Using profiles.yml file at C:\Users\Abhishek\.dbt\profiles.yml
+[0m16:26:16.427425 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\supply_chain_analytics\dbt_project.yml
+[0m16:26:16.431442 [info ] [MainThread]: adapter type: redshift
+[0m16:26:16.432425 [info ] [MainThread]: adapter version: 1.11.2
+[0m16:26:16.649173 [info ] [MainThread]: Configuration:
+[0m16:26:16.650194 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:26:16.651175 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:26:16.652178 [info ] [MainThread]: Required dependencies:
+[0m16:26:16.653175 [debug] [MainThread]: Executing "git --help"
+[0m16:26:16.850034 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:26:16.851039 [debug] [MainThread]: STDERR: "b''"
+[0m16:26:16.852042 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:26:16.853034 [info ] [MainThread]: Connection:
+[0m16:26:16.854051 [info ] [MainThread]:   host: default-workgroup.765807562151.eu-north-1.redshift-serverless.amazonaws.com:5439/dev
+[0m16:26:16.854051 [info ] [MainThread]:   user: admin
+[0m16:26:16.855033 [info ] [MainThread]:   port: 5439
+[0m16:26:16.856033 [info ] [MainThread]:   database: supply_chain
+[0m16:26:16.856033 [info ] [MainThread]:   method: database
+[0m16:26:16.857035 [info ] [MainThread]:   cluster_id: None
+[0m16:26:16.858041 [info ] [MainThread]:   iam_profile: None
+[0m16:26:16.859056 [info ] [MainThread]:   schema: analytics
+[0m16:26:16.860061 [info ] [MainThread]:   sslmode: prefer
+[0m16:26:16.861066 [info ] [MainThread]:   region: None
+[0m16:26:16.862059 [info ] [MainThread]:   sslmode: prefer
+[0m16:26:16.864053 [info ] [MainThread]:   region: None
+[0m16:26:16.866056 [info ] [MainThread]:   autocreate: False
+[0m16:26:16.867051 [info ] [MainThread]:   db_groups: []
+[0m16:26:16.868057 [info ] [MainThread]:   ra3_node: False
+[0m16:26:16.869060 [info ] [MainThread]:   datasharing: False
+[0m16:26:16.870050 [info ] [MainThread]:   connect_timeout: None
+[0m16:26:16.871048 [info ] [MainThread]:   role: None
+[0m16:26:16.872055 [info ] [MainThread]:   retries: 1
+[0m16:26:16.873570 [info ] [MainThread]:   retry_all: False
+[0m16:26:16.874585 [info ] [MainThread]:   autocommit: True
+[0m16:26:16.875585 [info ] [MainThread]:   access_key_id: None
+[0m16:26:16.876581 [info ] [MainThread]:   is_serverless: None
+[0m16:26:16.877583 [info ] [MainThread]:   serverless_work_group: None
+[0m16:26:16.878588 [info ] [MainThread]:   serverless_acct_id: None
+[0m16:26:16.880592 [info ] [MainThread]:   tcp_keepalive: True
+[0m16:26:16.881582 [info ] [MainThread]:   tcp_keepalive_idle: None
+[0m16:26:16.883583 [info ] [MainThread]:   tcp_keepalive_interval: None
+[0m16:26:16.885591 [info ] [MainThread]:   tcp_keepalive_count: None
+[0m16:26:16.886588 [info ] [MainThread]:   query_group: None
+[0m16:26:16.887592 [info ] [MainThread]:   allow_concurrent_drops: False
+[0m16:26:16.888589 [info ] [MainThread]:   drop_without_cascade: False
+[0m16:26:16.890593 [info ] [MainThread]: Registered adapter: redshift=1.11.2
+[0m16:26:17.646151 [debug] [MainThread]: Acquiring new redshift connection 'debug'
+[0m16:26:17.654993 [debug] [MainThread]: Using redshift connection "debug"
+[0m16:26:17.655998 [debug] [MainThread]: On debug: select 1 as id
+[0m16:26:17.655998 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:26:17.656972 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:26:17.664025 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:26:17.698556 [debug] [MainThread]: Redshift adapter: Got a retryable error when attempting to open a redshift connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('communication error', gaierror(11001, 'getaddrinfo failed'))
+[0m16:26:18.715216 [debug] [MainThread]: Redshift adapter: Error running SQL: select 1 as id
+[0m16:26:18.715216 [debug] [MainThread]: Redshift adapter: Rolling back transaction.
+[0m16:26:18.716217 [debug] [MainThread]: Redshift adapter: Not retrying error: Database Error
+  ('communication error', gaierror(11001, 'getaddrinfo failed'))
+[0m16:26:18.717217 [debug] [MainThread]: On debug: No close available on handle
+[0m16:26:18.717217 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:26:18.718215 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:26:18.719215 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('communication error', gaierror(11001, 'getaddrinfo failed'))
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:26:18.720229 [info ] [MainThread]: Your new dbt project "supply_chain_analytics" was created!
+Initialized new project in C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\supply_chain_analytics\supply_chain_analytics
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:26:18.721217 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m16:26:18.723217 [debug] [MainThread]: Command `dbt init` succeeded at 16:26:18.723217 after 63.27 seconds
+[0m16:26:18.724218 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:26:18.724218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C340ACCEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C3431E1100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C34336B5C0>]}
+[0m16:26:18.725217 [debug] [MainThread]: Flushing usage events
+[0m16:26:20.687745 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:31:13.772272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220DE67740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220DED0CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220E4E0DA0>]}
+
+
+============================== 16:31:13.786269 | 279b4a97-c8aa-4f4b-8f0c-5bebbdbb86a5 ==============================
+[0m16:31:13.786269 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m16:31:13.788272 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Abhishek\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'log_path': 'logs'}
+[0m16:31:13.789271 [debug] [MainThread]: Tracking: tracking
+[0m16:31:13.887800 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m16:31:13.889798 [info ] [MainThread]: python version: 3.12.10
+[0m16:31:13.891796 [info ] [MainThread]: python path: C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\.venv\Scripts\python.exe
+[0m16:31:13.892791 [info ] [MainThread]: os info: Windows-11-10.0.26300-SP0
+[0m16:31:13.913331 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m16:31:14.680245 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:31:14.681250 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:31:15.156262 [info ] [MainThread]: Using profiles dir at C:\Users\Abhishek\.dbt
+[0m16:31:15.157489 [info ] [MainThread]: Using profiles.yml file at C:\Users\Abhishek\.dbt\profiles.yml
+[0m16:31:15.158240 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\dbt_project.yml
+[0m16:31:15.159243 [info ] [MainThread]: Configuration:
+[0m16:31:15.160240 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:31:15.161245 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:31:15.162237 [info ] [MainThread]: Required dependencies:
+[0m16:31:15.163241 [debug] [MainThread]: Executing "git --help"
+[0m16:31:15.384623 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:31:15.385631 [debug] [MainThread]: STDERR: "b''"
+[0m16:31:15.386629 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:31:15.388625 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:31:15.389623 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:31:15.390623 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "tasty_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m16:31:15.391626 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Abhishek\Downloads\Resume_Project\Project 3\supply-chain-dbt\supply-chain-dbt\dbt_project.yml> not found
+
+[0m16:31:15.393624 [debug] [MainThread]: Command `dbt debug` failed at 16:31:15.393624 after 2.00 seconds
+[0m16:31:15.394622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220B12F020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220E66F680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022210C55550>]}
+[0m16:31:15.395622 [debug] [MainThread]: Flushing usage events
+[0m16:31:17.378272 [debug] [MainThread]: An error was encountered while trying to flush usage events

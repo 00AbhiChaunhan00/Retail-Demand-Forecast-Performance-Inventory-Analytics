@@ -1,0 +1,13 @@
+
+version: 2
+
+sources:
+  - name: supply_chain
+    description: "Raw supply chain data loaded into Amazon Redshift."
+
+    database: supply_chain
+    schema: public
+
+    tables:
+      - name: stg_supply_chain
+        description: "Staging table containing 73,100 supply chain records."
